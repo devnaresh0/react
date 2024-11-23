@@ -1,10 +1,10 @@
-
-
+import Chai from "./chai";
 function App() {
+  const username = "Chai aur code"
   const [count, setCount] = useState(0)
-
+ 
   return (
-   <h1>Chai aur react | Name </h1>
+<Chai/>
   );
 }
 
