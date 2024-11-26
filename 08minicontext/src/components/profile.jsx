@@ -10,6 +10,7 @@ function profile() {
     if(!user) return <div>please Login</div>
   
     return <div>Welcome {user.username}</div>
+    
 }
 
 export default profile
