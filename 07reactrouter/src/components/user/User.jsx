@@ -6,3 +6,5 @@ export default function User() {
     <div>User</div>
   )
 }
+
+export default function()
