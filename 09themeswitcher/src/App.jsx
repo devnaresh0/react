@@ -5,6 +5,7 @@ import './App.css'
 import { ThemeProvider } from './context/theme'
 import ThemeBtn from './components/themebutton'
 import Card from './components/card'
+import { useTodo } from '../todocontext/src/context'
 
 function App() {
   const {themeMode,setThemeMode} = useState("light");
@@ -23,7 +24,9 @@ document.querySelector('html').classList.add(themeMode)
  },[
   themeMode
  ])
-
+const editTodo = () => {
+  
+}
   return (
     <ThemeProvider value={{thememode,lightTheme,darkTheme}}>
    
